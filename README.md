@@ -4,6 +4,8 @@
 # libminer
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/sstevens2/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/sstevens2/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to provide an overview of your R library setup.
@@ -31,7 +33,7 @@ library(libminer)
 lib_summary()
 #>                                                                                        Library
 #> 1                        /Library/Frameworks/R.framework/Versions/4.3-x86_64/Resources/library
-#> 2 /private/var/folders/_c/jnl_rbtd34796rl_0tpzmhm80000gn/T/RtmpLHStdw/temp_libpath119f55124710
+#> 2 /private/var/folders/_c/jnl_rbtd34796rl_0tpzmhm80000gn/T/RtmpLHStdw/temp_libpath119f10d296b4
 #>   n_packages
 #> 1        186
 #> 2          1
@@ -39,7 +41,7 @@ lib_summary()
 lib_summary(sizes = TRUE)
 #>                                                                                        Library
 #> 1                        /Library/Frameworks/R.framework/Versions/4.3-x86_64/Resources/library
-#> 2 /private/var/folders/_c/jnl_rbtd34796rl_0tpzmhm80000gn/T/RtmpLHStdw/temp_libpath119f55124710
+#> 2 /private/var/folders/_c/jnl_rbtd34796rl_0tpzmhm80000gn/T/RtmpLHStdw/temp_libpath119f10d296b4
 #>   n_packages  lib_size
 #> 1        186 411644248
 #> 2          1     14939
